@@ -1,0 +1,29 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin-bottom: 48px;
+	background-color: var(--color-bg-stripe);
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	display: flex;
+	gap: 32px;
+}
+
+.icons {
+	display: flex;
+	gap: 8px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 24px;
+	overflow-x: scroll;
+}

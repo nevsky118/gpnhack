@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-bg-stripe);
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: var(--color-bg-ghost);
+}

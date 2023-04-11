@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 89vh; // fix
+}
+
+.search {
+  display: flex;
+  gap: 24px;
+  width: 400px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 248px;
+  background-color: var(--color-bg-default);
+}

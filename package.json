@@ -1,0 +1,33 @@
+{
+  "name": "gpnhack",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@consta/charts": "^0.7.1",
+    "@consta/header": "^1.2.0",
+    "@consta/uikit": "^4.14.2",
+    "@pbe/react-yandex-maps": "^1.2.3",
+    "@reduxjs/toolkit": "^1.9.3",
+    "clsx": "^1.2.1",
+    "lodash.debounce": "^4.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "prettier": "2.8.7",
+    "sass": "^1.61.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

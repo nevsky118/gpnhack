@@ -1,0 +1,20 @@
+:root {
+	font-family: 'Segoe UI', SegoeUI, 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+}
+
+.App {
+	background-color: var(--color-bg-secondary);
+}
+
+main {
+	max-width: 1440px;
+	margin: 0 auto;
+	width: 100%;
+}

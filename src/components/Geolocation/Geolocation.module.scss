@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  background-color: var(--color-bg-default);
+}
+
+.map {
+  width: 1440px;
+  height: 700px;
+}

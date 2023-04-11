@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-default);
+}
+
+.branch {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
